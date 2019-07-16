@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { STORAGE_CONSTANTS, LocalSettings } from './storage.config';
-import { LocalStorage, LocalStorageService } from 'ngx-webstorage';
+import { LocalStorage } from 'ngx-webstorage';
 
 @Injectable()
 
@@ -9,7 +9,7 @@ export class StorageService {
   @LocalStorage(STORAGE_CONSTANTS.KEY)
   public localSettings: LocalSettings;
 
-  constructor(private storage: LocalStorageService) {
+  constructor() {
     this.loadStorage();
    }
 

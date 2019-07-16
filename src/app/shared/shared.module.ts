@@ -6,7 +6,9 @@ import { LanguageModule } from '@app/core/language/language.module';
 import { Error404Component } from './components/error404/error404.component';
 
 @NgModule({
-  declarations: [Error404Component],
+  declarations: [
+    Error404Component
+  ],
   imports: [
     CommonModule,
     PipesModule,

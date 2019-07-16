@@ -7,6 +7,7 @@ import { StorageService } from '../../core/services/storage/storage.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
+
 export class HomeComponent implements OnInit {
 
   constructor(private language: LanguageService,

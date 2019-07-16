@@ -2,5 +2,51 @@
   {{'home.welcome' | translate}}
 </p>
 
+<p>Check your Web Browser's Local Storage!</p>
+
 <button type="button" (click)="setLanguage('en')">English</button>
 <button type="button" (click)="setLanguage('es')">Spanish</button>
+
+<h2>Angular 8 Seed</h2>
+
+This is all You actually need to start a fresh professional <b>Angular 8 App</b>,
+following best practices and scaffolded with the most and useful modules and services including:
+
+<h2>Core Module</h2>
+CoreModule is a conventional name for an NgModule with providers for the singleton services
+you load when the application starts. Includes <b>LanguageService</b> and <b>ErrorHandlerService</b>.
+
+<h2>Shared Module</h2>
+SharedModule is a conventional name for an NgModule with the components, directives, and
+pipes that you use everywhere in your app.
+
+<h2>Http Service</h2>
+Get data from any API with the public methods (<b>CRUD</b>). Accepts HttpHeader and HttpParams as arguments.
+
+<h2>Translation Service</h2>
+Translate your App easy way by just creating a json file at '<b>assets/i18n/</b>' following
+other languages pathern's.
+
+Here is how a <b>JSON</b> should lools like
+<p>
+  <code>"home.welcome": "Welcome!"</code>
+</p>
+
+On the HTML you can call this simply
+<p>
+  <code>&#10100;&#10100; 'home.welcome' | translate &#10101;&#10101;</code>, make sure
+  the parameter it's an string
+</p>
+
+<h2>Error Handler Service</h2>
+Customize your Error messages with this Service.
+
+<h2>Components Module</h2>
+Used to combine all shared components within your application such cards, inputs, footers, headers, etc...
+
+<h2>PWA Support</h2>
+Progressive Web App Support
+
+<h2>Pipes, Interfaces Modules</h2>
+This modules are prepared so you just need to create your
+<b>Pipes</b> and <b>Interfaces</b> and you are ready to go.
